@@ -12,6 +12,10 @@
 		AC7724961F23D77E005207DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7724941F23D77E005207DD /* Main.storyboard */; };
 		AC7724981F23D77E005207DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7724971F23D77E005207DD /* Assets.xcassets */; };
 		AC77249B1F23D77E005207DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7724991F23D77E005207DD /* LaunchScreen.storyboard */; };
+		AC8452CC1F23E26400FDC7E7 /* ClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8452CB1F23E26400FDC7E7 /* ClockTableViewCell.swift */; };
+		AC8452D01F23F52100FDC7E7 /* AquariumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8452CF1F23F52100FDC7E7 /* AquariumTableViewController.swift */; };
+		AC8452D21F2415BD00FDC7E7 /* SectionHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8452D11F2415BD00FDC7E7 /* SectionHeaderTableViewCell.swift */; };
+		AC8452D41F241B5100FDC7E7 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8452D31F241B5100FDC7E7 /* SwitchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		AC7724971F23D77E005207DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC77249A1F23D77E005207DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC77249C1F23D77E005207DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8452CB1F23E26400FDC7E7 /* ClockTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockTableViewCell.swift; sourceTree = "<group>"; };
+		AC8452CF1F23F52100FDC7E7 /* AquariumTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquariumTableViewController.swift; sourceTree = "<group>"; };
+		AC8452D11F2415BD00FDC7E7 /* SectionHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		AC8452D31F241B5100FDC7E7 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				AC7724901F23D77E005207DD /* AppDelegate.swift */,
+				AC8452CF1F23F52100FDC7E7 /* AquariumTableViewController.swift */,
+				AC8452CB1F23E26400FDC7E7 /* ClockTableViewCell.swift */,
+				AC8452D11F2415BD00FDC7E7 /* SectionHeaderTableViewCell.swift */,
+				AC8452D31F241B5100FDC7E7 /* SwitchTableViewCell.swift */,
 				AC7724921F23D77E005207DD /* ViewController.swift */,
 				AC7724941F23D77E005207DD /* Main.storyboard */,
 				AC7724971F23D77E005207DD /* Assets.xcassets */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8452D01F23F52100FDC7E7 /* AquariumTableViewController.swift in Sources */,
+				AC8452CC1F23E26400FDC7E7 /* ClockTableViewCell.swift in Sources */,
 				AC7724931F23D77E005207DD /* ViewController.swift in Sources */,
+				AC8452D21F2415BD00FDC7E7 /* SectionHeaderTableViewCell.swift in Sources */,
 				AC7724911F23D77E005207DD /* AppDelegate.swift in Sources */,
+				AC8452D41F241B5100FDC7E7 /* SwitchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WFMP87LTRX;
 				INFOPLIST_FILE = Aquarium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.yannickmauray.Aquarium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +293,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WFMP87LTRX;
 				INFOPLIST_FILE = Aquarium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.yannickmauray.Aquarium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +320,7 @@
 				AC7724A11F23D77E005207DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
