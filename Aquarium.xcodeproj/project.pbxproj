@@ -16,6 +16,8 @@
 		AC8452D01F23F52100FDC7E7 /* AquariumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8452CF1F23F52100FDC7E7 /* AquariumTableViewController.swift */; };
 		AC8452D21F2415BD00FDC7E7 /* SectionHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8452D11F2415BD00FDC7E7 /* SectionHeaderTableViewCell.swift */; };
 		AC8452D41F241B5100FDC7E7 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8452D31F241B5100FDC7E7 /* SwitchTableViewCell.swift */; };
+		ACC892AE1F2C02B900FB2485 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACC892AD1F2C02B900FB2485 /* Roboto-Regular.ttf */; };
+		ACC892B01F2C035C00FB2485 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACC892AF1F2C035C00FB2485 /* Roboto-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		AC8452CF1F23F52100FDC7E7 /* AquariumTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquariumTableViewController.swift; sourceTree = "<group>"; };
 		AC8452D11F2415BD00FDC7E7 /* SectionHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		AC8452D31F241B5100FDC7E7 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		ACC892AD1F2C02B900FB2485 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		ACC892AF1F2C035C00FB2485 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		AC77248F1F23D77E005207DD /* Aquarium */ = {
 			isa = PBXGroup;
 			children = (
+				ACC892AC1F2C027700FB2485 /* Fonts */,
 				AC7724901F23D77E005207DD /* AppDelegate.swift */,
 				AC8452CF1F23F52100FDC7E7 /* AquariumTableViewController.swift */,
 				AC8452CB1F23E26400FDC7E7 /* ClockTableViewCell.swift */,
@@ -74,6 +79,15 @@
 				AC77249C1F23D77E005207DD /* Info.plist */,
 			);
 			path = Aquarium;
+			sourceTree = "<group>";
+		};
+		ACC892AC1F2C027700FB2485 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ACC892AD1F2C02B900FB2485 /* Roboto-Regular.ttf */,
+				ACC892AF1F2C035C00FB2485 /* Roboto-Bold.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			files = (
 				AC77249B1F23D77E005207DD /* LaunchScreen.storyboard in Resources */,
 				AC7724981F23D77E005207DD /* Assets.xcassets in Resources */,
+				ACC892B01F2C035C00FB2485 /* Roboto-Bold.ttf in Resources */,
+				ACC892AE1F2C02B900FB2485 /* Roboto-Regular.ttf in Resources */,
 				AC7724961F23D77E005207DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

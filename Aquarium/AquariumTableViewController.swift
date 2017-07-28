@@ -54,7 +54,6 @@ class AquariumTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        print("cellForRowAt: " + String(indexPath.row))
         if (indexPath.row == 0) {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "ClockTableViewCell", for: indexPath) as? ClockTableViewCell else {
                 fatalError("The dequeud cell is not an instance of ClockTableViewCell.")
