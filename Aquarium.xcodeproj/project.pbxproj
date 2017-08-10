@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC55523A1F3BA41500482BBA /* AquariumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5552391F3BA41500482BBA /* AquariumViewController.swift */; };
+		AC55523C1F3BBD1700482BBA /* AquariumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC55523B1F3BBD1700482BBA /* AquariumView.swift */; };
 		AC7724911F23D77E005207DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7724901F23D77E005207DD /* AppDelegate.swift */; };
 		AC7724931F23D77E005207DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7724921F23D77E005207DD /* ViewController.swift */; };
 		AC7724961F23D77E005207DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7724941F23D77E005207DD /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC5552391F3BA41500482BBA /* AquariumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquariumViewController.swift; sourceTree = "<group>"; };
+		AC55523B1F3BBD1700482BBA /* AquariumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquariumView.swift; sourceTree = "<group>"; };
 		AC77248D1F23D77E005207DD /* Aquarium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aquarium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7724901F23D77E005207DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC7724921F23D77E005207DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC5552381F3BA3E200482BBA /* V2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC5552391F3BA41500482BBA /* AquariumViewController.swift */,
+				AC55523B1F3BBD1700482BBA /* AquariumView.swift */,
+			);
+			name = V2;
+			sourceTree = "<group>";
+		};
 		AC7724841F23D77E005207DD = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +79,7 @@
 		AC77248F1F23D77E005207DD /* Aquarium */ = {
 			isa = PBXGroup;
 			children = (
+				AC5552381F3BA3E200482BBA /* V2 */,
 				ACC892AC1F2C027700FB2485 /* Fonts */,
 				AC7724901F23D77E005207DD /* AppDelegate.swift */,
 				AC8452CF1F23F52100FDC7E7 /* AquariumTableViewController.swift */,
@@ -169,6 +183,8 @@
 				AC8452CC1F23E26400FDC7E7 /* ClockTableViewCell.swift in Sources */,
 				AC7724931F23D77E005207DD /* ViewController.swift in Sources */,
 				AC8452D21F2415BD00FDC7E7 /* SectionHeaderTableViewCell.swift in Sources */,
+				AC55523A1F3BA41500482BBA /* AquariumViewController.swift in Sources */,
+				AC55523C1F3BBD1700482BBA /* AquariumView.swift in Sources */,
 				AC7724911F23D77E005207DD /* AppDelegate.swift in Sources */,
 				AC8452D41F241B5100FDC7E7 /* SwitchTableViewCell.swift in Sources */,
 			);
@@ -293,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = WFMP87LTRX;
 				INFOPLIST_FILE = Aquarium/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -307,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = WFMP87LTRX;
 				INFOPLIST_FILE = Aquarium/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
